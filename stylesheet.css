@@ -1,0 +1,922 @@
+header, footer, article {display:block;}
+
+body {
+	font-family:  "Courier New",Courier,monospace;
+}
+
+header {
+	height:240px;
+	text-align: center;
+}
+
+
+h1 {
+	margin:30px;
+	padding:20px 0px 0px 20px;
+	text-align: center;
+}
+
+#nav  {
+	height: 50px;
+	font-family: "Copperplate Gothic Light";
+	font-size: 0.9em;
+	
+}
+
+ul  {
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+li  {
+	display: inline;
+	font-weight: bold;
+	padding-right: 50px;
+	padding-left: 50px;
+	
+
+}
+
+a  {
+	color:black;
+	text-decoration: none;
+}
+
+li a:hover  {
+	color:#F5A9BC;
+	
+}
+
+#article {
+	margin:50px 0px 0px 0px;
+	padding:0px 10px 0px 10px;
+	text-align: center;
+}
+
+#article p {
+	margin: 50px auto 30px auto;
+	font-size: 1.4em;
+	font-family: "Copperplate Gothic Light";
+
+}
+
+#article a{
+	font-family: "Didot";
+	font-size: 1.2em;
+	color:#F5A9BC;
+}
+
+footer {
+	font-family: "times new roman";
+	clear:both;
+	height:22px;
+	background-color: #FBEFF5;
+	margin:80px 0px 0px 0px;
+	text-align: center;
+	padding: 5px 0px 0px 0px;
+}
+
+#nav li .current {
+	color:#F5A9BC;
+}
+
+/*page of collections*/
+#collections {
+	margin: 70px 13%;
+}
+
+.entry img {
+	border: 10px;
+	margin: 25px;
+	float: left;
+	border-color: #FBEFF5;
+	border-style: solid;
+	margin-bottom: 50px;
+
+}
+
+.hide {
+	display: none;
+}
+
+a:hover .hide {
+	display: block;
+}
+
+.entry a:hover .normal{
+	display: none;
+	
+
+}
+
+/*page of HunAliee*/
+
+#habody {
+	background-image: url(HunAliee/bg.jpg);
+	background-size: 50%;
+}
+
+#haheader {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#haintro {
+	text-align: center;
+	margin:50px 140px 100px 140px;
+	font-family: "Times new roman";
+	font-size: 1.1em;
+
+}
+
+#haintro h2 {
+	text-align: center;
+
+}
+
+#haintro figure {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+#haintro figcaption {
+	font-weight: bold;
+}
+
+#haintro p {
+	margin: 0px 100px 40px 100px;
+
+}
+
+#haintro #comic {
+	text-align: center;
+	margin-bottom: 40px;
+	
+
+}
+
+#haintro img {
+	outline-color: #F5A9D0;
+	outline-style: dashed;
+	padding: 10px;
+	margin: 10px;
+	outline-width: 4px;
+}
+
+#haintro .doll {
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+
+#haintro a {
+	font-weight: bold;
+	text-decoration:underline;
+	color: #FA5882;
+}
+
+/* page of designer*/
+#designer {
+	font-family: "Didot";
+	margin: 150px;
+}
+
+#photo {
+	float: left;
+	margin-bottom: 100px;
+}
+
+#photo img {
+	margin-bottom: 30px;
+	padding-left:7%; 
+}
+#info1 {
+	float: right;
+	width: 40%; 
+}
+
+#label img{
+	margin: 10px 10px 10px 0;
+	padding: 0px;
+	float: left;
+}
+
+#label p {
+	font-size: 0.7em;
+	padding-top: 20px; 
+}
+
+#info1 h1 {
+text-align: left;
+}
+
+#info1 .s {
+	margin-bottom: 50px;
+}
+
+/* page #followme */
+#followmeheader {
+	margin: 80px 50px 50px 50px;
+	text-align: center;
+}
+
+#intro {
+	padding-right: 180px;
+	padding-left:180px; 
+	font-family: "Times New Roman";
+	letter-spacing:4px;
+	line-height: 0.6;
+}
+
+#intro h1 {
+	font-weight: lighter;
+	text-align: center; 
+}
+
+#intro #name {
+	color:#FA5882;
+}
+
+#intro h4 {
+	text-decoration: underline;
+}
+
+#line {
+	margin-top: 50px;
+	clear: both;
+	text-align: center;
+}
+
+
+
+#pic {
+	text-align: center;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+
+.title {
+	font-size:1.6em;
+
+}
+#tag1 {
+	float: left;
+	text-align: center;
+	padding-left: 12%;
+	width: 40%;
+
+}
+
+#pic1 {
+	float: right;
+	margin-right: 8%
+}
+
+#pic2 {
+	float:left; 
+	margin-left: 8%
+}
+
+#tag1 .title {
+	color: #FAAC58;
+}
+
+#tag2 {
+	float: right;
+	position: absolute;
+	top:29%;
+	right: 18%;
+	text-align: center;
+	padding-left: 50%;
+	width: 20%
+
+}
+
+#tag2 .title {
+	color:#FA5882;
+}
+
+#tag3 {
+	text-align: center;
+}
+#tag3 .title {
+	color:#58D3F7;
+} 
+#travel {
+	margin-bottom: 80px;
+
+}
+
+#travel p {
+	font-family: "times new roman";
+	letter-spacing: 0.2em;
+}
+
+#travel a {
+	text-decoration: underline;
+	color: #FA5882;
+
+}
+
+
+
+
+
+/*gallery*/
+
+.gallery {
+	background-image: url(collections/frame.jpg);
+	background-repeat: no-repeat;
+	background-size:  68%;
+	background-position: center;
+
+}
+
+.gallery a{
+	padding-top: 10px;
+}
+
+/*Reference: http://www.menucool.com/responsive-slider# */
+#ninja-slider {
+    width:50%;
+    
+    padding: 80px 0;
+    margin:0 auto;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+
+#ninja-slider.fullscreen {
+    background:white;
+}
+
+
+#ninja-slider .slider-inner {
+    max-width:600px;
+    margin:0 auto;/*center-aligned */
+    font-size:0px;
+    position:relative;
+    box-sizing:border-box;
+}
+
+#ninja-slider.fullscreen .slider-inner {
+    width:95%;
+    max-width:800px;
+}
+
+#ninja-slider ul {
+    position:relative;
+    list-style:none;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#ninja-slider li {
+    
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position: absolute;
+    font-size:12px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    opacity:0;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+
+#ninja-slider li.ns-show {
+    opacity:1;
+}
+
+
+
+/* --------- slider image ------- */  
+#ninja-slider .ns-img {
+   
+    background-size:contain;/*Note: If transitionType is zoom, it will be overridden to cover.*/
+
+    /*decorate border*/
+   	margin-top: 40px;
+    cursor:default;
+    display:block;
+    position: absolute;
+    width:100%;
+    height:87%;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+
+/*---------- Captions -------------------*/
+
+#ninja-slider li .cap1 {
+    color:rgba(255,255,255,0.5);
+    font:bold 32px arial;
+    text-align:center;
+
+    opacity:0;
+    bottom:40%;
+    -webkit-transition:bottom 1.3s, opacity 1s;
+    transition:bottom 1.3s, opacity 1s;
+}
+
+/*The cap1 of the current slide */
+#ninja-slider li[class*='-'] .cap1 {
+    opacity:1;
+    bottom:20%;
+}
+#ninja-slider li .cap2 {
+    color:rgba(255, 162, 0, 0.5);
+    font-size:23px;
+    bottom:15%;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+}
+
+/*The cap2 of the current slide */
+#ninja-slider li[class*='-s'] .cap2 {
+    bottom:10%;
+}
+
+
+/* ---------Arrow buttons ------- */   
+/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */ 
+#ninja-slider-pause-play { display:none;}  
+
+
+#ninja-slider-prev {
+  display: none;
+    left: 42px; /*set it with a positive value if .slider-inner does not have max-width setting.*/
+}
+#ninja-slider-next {
+  display: none;
+    right: -42px;
+}
+
+
+/*pagination num within the arrow buttons*/
+#ninja-slider-prev div, #ninja-slider-next div {display:none;}
+
+
+/*------ pager(nav bullets) ------*/      
+/* The pager id should be: slider id + "-pager" */
+/* #ninja-slider-pager { display:none;}*/
+#ninja-slider-pager
+{
+    padding-top:30px; /* set the distance away from the slider */
+    margin:0 auto; /* center align */
+    text-align:center;
+    display:none;
+    font-size:0;
+}
+ 
+
+
+/*Responsive settings for the slider*/
+@media only screen and (max-width:600px){
+
+    #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pager {
+        display:none;
+    }
+
+    
+    #ninja-slider li .cap1 {
+        font-size:20px;
+    }
+}
+
+/* Media Queries for other devices*/
+@media only screen and (min-width:480px) and (max-width: 766px) {
+
+#nav li{
+	padding: 10px;
+
+}
+
+.entry {
+	margin-left: 15%;
+	margin-top: 20px;
+
+}
+
+.entry img {
+	width: 30%;
+}
+
+#haintro {
+		margin: 5% 17%;
+	}
+
+#haintro p{
+		margin: 20px auto;
+	}
+
+#haintro figure img {
+	width: 70%;
+}
+
+#review img{
+	width: 40%;
+}
+
+#donation img {
+	width: 60%;
+}
+
+.doll {
+	margin-top:7%; 
+}
+
+#designer {
+	margin: auto;
+}
+
+#designer #photo {
+		
+	text-align: center;
+	}
+
+#designer #photo img {
+	margin: 50px auto 20px auto;
+	width: 50%;
+	text-align: center;
+	padding-left:0; 
+
+}
+
+#info1 {
+	float: none;
+	width: 90%;
+	margin: auto auto;
+}
+
+#info1 img{
+	margin: auto;
+}
+
+
+#info1 #label img{
+	display: none;
+}
+
+#slogan {
+	float: none;
+	margin-left: 10%}
+
+#label p {
+	font-size: 0.7em;
+	margin: 0;
+	padding-top: 20px; 
+}
+
+#info1 h1 {
+	text-align: center;
+}
+
+#info1 .s {
+	margin-bottom: 50px;
+}
+
+#followmeheader {
+	margin: 50px 50px 50px 50px;
+	text-align: center;
+}
+
+#intro {
+	text-align: center;
+	padding: 0px;
+	font-family: "Times New Roman";
+	letter-spacing:4px;
+	line-height: 0.6;
+}
+
+#intro h1 {
+	font-weight: lighter;
+	text-align: center; 
+}
+
+#intro p{
+	margin:30px auto; 
+}
+
+
+
+#tag1 {
+	float: left;
+	text-align: center;
+	padding-left: 12%;
+	width: 40%;
+
+}
+
+#pic1 {
+	float: right;
+	margin-right: 8%
+}
+
+#pic2 {
+	float:left; 
+	margin-left: 8%
+}
+
+
+
+#tag2 {
+	float: right;
+	position: absolute;
+	top:27%;
+	right: 9%;
+	text-align: center;
+	padding-left: 50%;
+	width: 40%
+
+}
+
+
+#tag3 p {
+	margin: 15px;
+}
+.gallery {
+	background-image: url(collections/frame.jpg);
+	background-repeat: no-repeat;
+	background-size:  100%;
+	background-position: center;
+
+}
+
+.gallery a{
+	padding-top: 10px;
+}
+
+/*Reference: http://www.menucool.com/responsive-slider# */
+#ninja-slider {
+    width:100%;
+    
+    padding: 0 0;
+    margin:0 auto;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+#ninja-slider .ns-img {
+   
+    background-size:contain;/*Note: If transitionType is zoom, it will be overridden to cover.*/
+
+    /*decorate border*/
+   	margin-top: 97px;
+    cursor:default;
+    display:block;
+    position: absolute;
+    width:100%;
+    height:67%;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+li {
+	display: block;
+	margin: 10px;
+}
+
+#nav {
+	margin-bottom: 120px;
+}
+	
+#article p {
+	font-size: 0.8em;
+}
+
+#article a {
+	font-size: 1em;
+}
+
+.entry img{
+	width: 60%;
+	margin-left: 17%;
+	margin-bottom: 50px;
+}
+
+#haheader {
+	margin-top: 10px;
+}
+
+#haintro {
+	margin: 10%;
+}
+
+#haintro p{
+	margin: 20px auto;
+}
+
+#haintro figure {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+	
+#haintro figure img {
+	width: 70%;
+}
+
+	
+#haintro #comic {
+	text-align: center;
+	margin: 30px auto;	
+
+}
+
+#haintro #comic img{
+	width: 70%;
+}
+
+
+#haintro .doll {
+	text-align: center;
+	margin: 30px auto;
+	
+}
+
+#haintro .doll img {
+	width: 70%;
+}
+
+#haintro .doll figure img {
+	width: 80%;
+}
+
+#haintro a {
+	font-weight: bold;
+	text-decoration:underline;
+	color: #FA5882;
+}
+	
+#designer {
+	margin: auto;
+}
+
+#designer #photo {
+	text-align: center;
+}
+
+#designer #photo img {
+	margin: 30px;
+	width: 70%;
+	text-align: center;
+	padding-left:0; 
+
+}
+
+#info1 {
+	float: none;
+	width: 90%;
+	margin: auto auto;
+}
+
+#info1 img{
+	margin: auto;
+}
+
+
+#info1 #label img{
+	margin: 10px 10px 10px 0;
+	width: 10%;
+	padding: 0px;
+
+}
+
+#slogan {
+float: none;
+margin-right: 6%;}
+
+#label p {
+		font-size: 0.7em;
+	padding-top: 20px; 
+}
+
+#info1 h1 {
+text-align: center;
+}
+
+#info1 .s {
+	margin-bottom: 50px;
+}
+
+
+
+#followmeheader {
+	margin: 150px 50px 50px 50px;
+	text-align: center;
+}
+
+#intro {
+	text-align: center;
+	padding: 0px;
+	font-family: "Times New Roman";
+	letter-spacing:4px;
+	line-height: 0.6;
+}
+
+#intro h1 {
+	font-weight: lighter;
+	text-align: center; 
+}
+
+#intro p{
+	margin:30px auto; 
+}
+
+
+
+#tag1 {
+	float: left;
+	text-align: center;
+	padding-left: 12%;
+	width: 40%;
+
+}
+
+#pic1 {
+	float: right;
+	margin-right: 8%
+}
+
+#pic2 {
+	float:left; 
+	margin-left: 8%
+}
+
+
+
+#tag2 {
+	float: right;
+	position: absolute;
+	top:23%;
+	right: 13%;
+	text-align: center;
+	padding-left: 50%;
+	width: 40%
+
+}
+
+
+#tag3 p {
+	margin: 15px;
+}
+
+.gallery {
+	background-image: url(collections/frame.jpg);
+	background-repeat: no-repeat;
+	background-size:  100%;
+	background-position: center;
+
+}
+
+.gallery a{
+	padding-top: 10px;
+}
+
+/*Reference: http://www.menucool.com/responsive-slider# */
+#ninja-slider {
+    width:100%;
+    
+    padding: 0 0;
+    margin:0 auto;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+#ninja-slider .ns-img {
+   
+    background-size:contain;/*Note: If transitionType is zoom, it will be overridden to cover.*/
+
+    /*decorate border*/
+   	margin-top: 80px;
+    cursor:default;
+    display:block;
+    position: absolute;
+    width:100%;
+    height:67%;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+}
+
+
+
+
+}
+
+
